@@ -14,6 +14,7 @@ public class App extends JFrame {
 
     class CheckersGame extends JPanel implements KeyListener{
         Board board;
+        String strrr = "";
         boolean stageBuilt = false;
 
         public CheckersGame(){
@@ -50,7 +51,7 @@ public class App extends JFrame {
         window.run();
     }
 
-    private App() {
+    App() {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         CheckersGame canvas = new CheckersGame();
         this.setContentPane(canvas);
@@ -73,6 +74,16 @@ public class App extends JFrame {
             }
         }
     }
+
+    public String getGreeting() {
+        return "";
+    }
+
+    public String getGreeting3() {
+        return "";
+    }
+
+
 
 
 }
