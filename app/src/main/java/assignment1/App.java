@@ -79,6 +79,11 @@ public class App extends JFrame {
         return "";
     }
 
+    public String getGreeting3() {
+        return "";
+    }
+
+
 
 
 }
